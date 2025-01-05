@@ -1,0 +1,1 @@
+export { setupChart } from './main'
