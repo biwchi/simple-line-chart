@@ -111,8 +111,6 @@ export class Grid {
   ) {
     const { width, height, x: rectX, y: rectY } = this._rect
 
-    // const y = height - ((val - minData) / (maxData - minData)) * height
-    // const x = (i / (this._data.length - 1)) * width
     const x = (idx / (len - 1)) * width
     const y = height - ((data - min) / (max - min)) * height
 
